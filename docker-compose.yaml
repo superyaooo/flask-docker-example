@@ -1,0 +1,7 @@
+services:
+  python-app:
+    build: .
+    ports:
+      - "5001:8080"
+    volumes:
+      - .:/app:ro
